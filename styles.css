@@ -264,4 +264,36 @@ p {
 .rules-container > div > img {
     cursor: pointer;
 }
- 
+
+@media(max-width: 900px) {
+    .title-score-container{
+        height: auto;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .score-container{
+        height: 78px;
+        width: 90px;
+    }
+
+    .score-owner{
+        font-size: 12px;
+    }
+
+    .score{
+        font-size: 40px;
+        margin-top: -7px;
+    }
+
+    .options-container{
+        transform: scale(.7);
+        margin-top: 50px;
+    }
+
+    .rules-btn{
+        transform: scale(.6);
+    }
+}
