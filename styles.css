@@ -280,6 +280,11 @@ p {
         height: 100%;
         width: 50%;
         border-radius: 10px;
+        justify-content: center;
+    }
+
+    .space {
+        width: 20%;
     }
 
     .score-owner{
@@ -298,8 +303,8 @@ p {
 
     .rules-btn{
         transform: scale(.5);
-        bottom: 0%;
-        right: 28%;
+        bottom: 0;
+        right: auto;
     }
 
     .first-step{
@@ -316,6 +321,7 @@ p {
     .actual-result {
         position: absolute;
         bottom: -90%;
+        right: auto;
     }
 
 
